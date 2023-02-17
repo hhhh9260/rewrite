@@ -3,13 +3,7 @@
 
 
 
-*********************************
-QuantumultX 添加脚本：
-*********************************
 
-QuantumultX重写引用地址：https://raw.githubusercontent.com/hhhh9260/rewrite/main/1aa_spotify.js
-
-注：以上引用地址需要打开并使用KOP-XIAO资源解析器，如没有解析器请使用脚本配置：
 
 [rewrite_local]
 ^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$ url script-response-body https://raw.githubusercontent.com/hhhh9260/rewrite/main/1aa_spotify.js
